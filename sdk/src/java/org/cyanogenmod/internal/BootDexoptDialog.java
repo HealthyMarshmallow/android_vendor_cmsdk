@@ -145,7 +145,7 @@ public class BootDexoptDialog extends Dialog {
             } else if (stage == IActivityManager.BOOT_STAGE_FSTRIM) {
                 mDetailMsg.setText(res.getString(R.string.android_upgrading_fstrim));
             } else if (stage == IActivityManager.BOOT_STAGE_COMPLETE) {
-                mDetailMsg.setText(res.getString(R.string.android_upgrading_complete_details));
+                mDetailMsg.setText("temasek & ZG unofficial CM 13.0 build");
             } else {
                 mDetailMsg.setText(null);
             }
